@@ -1,4 +1,4 @@
-N=1024 #system size
+N=1024 %system size
 for q=0%0:0.00001:0.99999
 INP=['tcp_q',num2str(q),'_spatial_data_PD.dat']; %set 0s according to resolution of q in simulations
 k=dlmread(INP);

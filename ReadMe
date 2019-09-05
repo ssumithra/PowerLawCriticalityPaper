@@ -1,4 +1,4 @@
-##Codes and Data for “Patchiness and scale-free correlations: characterising criticality in ecosystems”, submitted to Proc.Soc.B.
+##Codes and Data for “Patchiness and scale-free correlations: characterising criticality in ecosystems”, submitted to Methods in Ecology and Evolution.
 
 ###Codes
 	1.	A C++ code (pqmodel.cpp) for the spatially-explicit model which simulates critical transitions in a system with variable positive-feedback interactions. Written by Sabiha Majumder.

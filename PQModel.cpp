@@ -11,8 +11,8 @@ using std::ofstream;
 #define N 1024    // system size//#define means 'assign value to the global variable that follows.. so wherever you write N it will be 128 automatically
 #define p_range 100000  // no. of p values in range 0-1
 #define q_range 10000 // no. of q values in range 0-1
-#define T 300000      // No. of time steps
-#define rep 50 //no. replicates
+#define T 10000      // No. of time steps
+#define rep 5 //no. replicates
 
 
 //====== function to initialize the matrix ===============//
@@ -193,8 +193,8 @@ int main(){
 	//int*A1= new int[N*N];   // another matrix for synchronous update
 	cout<<q<<endl; //syntax for output // endl=end line
 
-for(qy=0000;qy<10000;qy=qy+100){ //newly added
-	for(x=99000;x>0; x=x-1){    // each loop will calculate stationary density at p[x], x-- = x-1, you can calculate final density only for a subset of p values… you specify those p values this way.
+for(qy=0000;qy<10000;qy=qy+9200){ 
+	for(x=99000;x>0; x=x-10000){    // each loop will calculate stationary density at p[x], x-- = x-1, you can calculate final density only for a subset of p values… you specify those p values this way.
 		for(l=0;l<rep;++l){
 
 			create_random_matrix(A,0.5);    //creates random matrix with 0.5 initial density. this must be changed to very high and very low values to get upperbranch and lower branch phase diagram for high values of q

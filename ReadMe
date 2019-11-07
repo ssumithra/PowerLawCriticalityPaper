@@ -1,6 +1,6 @@
-##Codes and Data for “Clustering and correlations: inferring resilience from spatial patterns in ecosystems”, submitted to Methods in Ecology and Evolution.
+### Codes and Data for “Clustering and correlations: inferring resilience from spatial patterns in ecosystems”, submitted to Methods in Ecology and Evolution.
 
-###Codes
+#### Codes
 	1.	A C++ code (pqmodel.cpp) for the spatially-explicit model which simulates critical transitions in a system with variable positive-feedback interactions. Written by Sabiha Majumder.
 To run this code, use any latest linux or Mac OS. We have run this on Ubuntu 12.04. It is expected to work on other OS as well, if you have the compilers, but we haven’t tested. To run this code, type the following command on the command prompt.
 g++ -o pqsim pqmodel.cpp
@@ -13,10 +13,10 @@ It must be noted that the pqmodel.cpp code file uploaded here runs the simulatio
 	4.	Patch size distribution code to read in the patch sizes file and fit it according to the fitting methods described in Appendix B. We have provided two files of patch size distributions (that were plotted in Fig 5 of the main text) for reproduction. These functions for fitting were all provided as part of the power-law package and in the companion repository (https://github.com/jeffalstott/powerlaw/tree/master/testing/pli-R-v0.0.3-2007-07-25). They were compiled and structured for use with the current project data by Sumithra and Ashwin.
 	5.	Power Spectrum fitting code with reads in the all the power-spectra files in a folder and fits the spectra. We have provided  4 power-spectra datasets (that were plotted in Fig 7 of the main text) for reproduction. (Written by Sumithra) 
 
-###Data
+#### Data
 	1.	Sample data sets of patch sizes (corresponding to Fig 4. of main manuscript) : q0.92p0.2852PSD.csv , q0.92p0.2865PSD.csv , q0p0.7225PSD.csv and q0p0.62275PSD.csv
 	2.	Sample data sets of power-spectra for 50 replicate snapshots for p and q values corresponding to Fig. 7 of main text : folders q0.92p0.2865PowSpecReps q0.92p0.2852PowSpecReps q0p0.7225PowSpecReps and q0p0.62275PowSpecReps 
 
 
-###Reference 
-###Contact us For any queries, contact Sumithra (sumithras@iisc.ac.in)
+#### Reference 
+#### Contact us For any queries, contact Sumithra (sumithras@iisc.ac.in)
